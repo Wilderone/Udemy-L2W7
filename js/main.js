@@ -1,0 +1,13 @@
+let count = document.querySelector('#start'),
+    result = document.querySelector('.result-table'),
+    values = result.querySelectorAll('[class*="value"]'),
+    optexpens = document.querySelectorAll('div.data input[class=expenses-item]'),
+    appr = document.querySelector('div.data  button[class=optionalexpenses-btn]'),
+    cntBtn = document.querySelector('.count-budget-btn'),
+    optExpInput = document.querySelectorAll('.optionalexpenses-item'),
+    chooseIncome = document.querySelector('.choose-income'),
+    savingsCheck = document.querySelector('#savings'),
+    chooseSum = document.querySelector('#sum'),
+    choosePercent = document.querySelector('.choose-percent'),
+    openBtn = document.querySelector('.open'),
+    data = document.querySelectorAll('div.time-data [class*="value"]');
